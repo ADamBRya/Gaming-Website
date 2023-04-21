@@ -1,0 +1,55 @@
+
+#Head1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+body {
+    background-color: rgb(86, 86, 87);
+}
+.Boss {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.Click {
+    background-color: rgb(21, 14, 87);
+    color: rgb(255,  255, 255);
+    border: none;
+    height: 60px;
+    width: 80px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    
+}
+.Click:hover {
+    opacity: 0.8;
+    transition: opacity 0.15ms;
+}
+.Click:Active {
+    background-color: rgb(124, 76, 4);
+    opacity: 0.5;
+    transition: backgound 0.15ms;
+    transition: opacity 0.15ms;
+}
+.Name {
+    background-color: rgb(86, 86, 87);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Tag {
+    text-align: left;
+    margin-bottom: 0;
+}
